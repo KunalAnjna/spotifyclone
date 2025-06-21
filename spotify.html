@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Spotify Clone </title>
+  <link rel="stylesheet" href="spotify.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+</head>
+<body>
+  <div class="app" role="main">
+    <aside class="sidebar" aria-label="Main Navigation">
+      <div class="logo">SPOTIFY</div>
+      <nav>
+        <a href="#" class="active"><span class="material-icons" aria-hidden="true">home</span> Home</a>
+        <a href="#"><span class="material-icons" aria-hidden="true">search</span> Search</a>
+        <a href="#"><span class="material-icons" aria-hidden="true">library_music</span> Your Library</a>
+      </nav>
+      <div class="divider" role="separator"></div>
+      <nav class="playlists" aria-label="Playlists">
+        <a href="#">Recently played</a>
+        <a href="#">Top Hits pujabi 2025</a>
+        <a href="#">cheema y</a>
+        <a href="#">Sumit Patra</a>
+        <a href="#">new haryanvi</a>
+      </nav>
+    </aside>
+    <main class="main" tabindex="0">
+     <header class="header">
+  <span class="material-icons" style="vertical-align: middle; margin-right: 8px;">account_circle</span>
+  USER
+</header>
+
+     <div class="b" >Recently played</div> 
+      <section aria-label="Featured Playlists" class="playlist-grid">
+        <a href="#" class="playlist-card"  data-audio="Blue_Mountain.mp3" >
+          <img src="https://i.scdn.co/image/ab67616d0000b2737a7cc8411fe9e9e3ac5487f5" alt="blue_mountain" />
+          <div class="playlist-info">
+            <div class="title">Blue_Mountain</div>
+            <div class="subtitle">cheema y</div>
+          </div>
+        </a>
+        <a href="#" class="playlist-card" tabindex="0" data-title="Top Hits 2024" data-artist="Chart Busters" data-audio="Rail.mp3" data-img="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/57871533-ffb1-4341-a5aa-860f5e5b76f5.png">
+          <img src="https://i.scdn.co/image/ab67616d0000b2730804804d2fe9dcc867a3f3e5" alt="Top Hits 2024 playlist cover" />
+          <div class="playlist-info">
+            <div class="title">Rail</div>
+            <div class="subtitle">Sumit patra</div>
+          </div>
+        </a>
+      
+        <a href="#" class="playlist-card" tabindex="0" data-title="Jazz Essentials" data-artist="Smooth Sounds" data-audio="D:\rojects\spotify clone\SpotiDown.App - 0008 - Sidhu Moose Wala, Jenny Johal, The Kidd.mp3" data-img="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/92fd66df-04a8-4898-ba37-979518f4e1bf.png">
+          <img src="https://i.scdn.co/image/ab67616d00001e02f259a5eb06f024c71d835190" alt="Jazz Essentials playlist cover" />
+          <div class="playlist-info">
+            <div class="title">0008</div>
+            <div class="subtitle">Sidhu Moose Wala</div>
+          </div>
+        </a>
+          <a href="#" class="playlist-card" tabindex="0" data-title="Chill Vibes" data-artist="Relax and unwind" data-audio="SpotiDown.App - Take Notes - Sidhu Moose Wala, Jay B.mp3" data-img="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/dcb395cc-2806-4a46-a86d-fad1ebc7b87d.png">
+          <img src="https://i.scdn.co/image/ab67616d00001e02f259a5eb06f024c71d835190" alt="Chill Vibes playlist cover" />
+          <div class="playlist-info">
+            <div class="title">Takes notes</div>
+            <div class="subtitle">Sidhu Moose Wala</div>
+          </div>
+        </a>
+           <a href="#" class="playlist-card" tabindex="0" data-title="Jazz Essentials" data-artist="Smooth Sounds" data-audio="SpotiDown.App - Teri Main Hogayi - From _Tufang_ - Jass Manak.mp3" data-img="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/92fd66df-04a8-4898-ba37-979518f4e1bf.png">
+          <img src="https://a10.gaanacdn.com/gn_img/albums/NOXWVRgWkq/XWVV4L1zWk/size_m_1733477851.jpg" alt="Jazz Essentials playlist cover" />
+          <div class="playlist-info">
+            <div class="title">Teri Main Hogayia</div>
+            <div class="subtitle">Jass Manak</div>
+          </div>
+        </a>
+          <a href="#" class="playlist-card" tabindex="0" data-title="Chill Vibes" data-artist="Relax and unwind" data-audio="SpotiDown.App - Courtside - Karan Aujla.mp3" data-img="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/dcb395cc-2806-4a46-a86d-fad1ebc7b87d.png">
+          <img src="https://i.scdn.co/image/ab67616d0000b273fa5b9459131a25462cead8ae" alt="Chill Vibes playlist cover" />
+          <div class="playlist-info">
+            <div class="title">Courtside</div>
+            <div class="subtitle">Karan Aujla</div>
+          </div>
+         </a>
+        
+       
+      </section>
+     
+    </main>
+
+    <footer class="player-bar" role="region" aria-label="Music player controls">
+      <div class="player-info">
+        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/901c45a0-71d1-4a1c-adda-7afae6aec6d9.png" alt="Now playing album art" id="now-playing-img" />
+        <div class="text">
+          <div class="title" id="now-playing-title">Select a song to play</div>
+          <div class="artist" id="now-playing-artist">-</div>
+        </div>
+      </div>
+      <div class="player-controls">
+        <button aria-label="Previous" id="prev-btn"><span class="material-icons" aria-hidden="true">skip_previous</span></button>
+        <button aria-label="Play/Pause" class="play-pause" id="play-pause-btn"><span class="material-icons" id="play-pause-icon" aria-hidden="true">play_arrow</span></button>
+        <button aria-label="Next" id="next-btn"><span class="material-icons" aria-hidden="true">skip_next</span></button>
+         <input type="range" id="seek-bar" value="0" max="100">
+        <span id="current-time">0:00</span> / <span id="duration">0:00</span>
+        <button id="shuffle-btn" aria-label="Shuffle">
+  <span class="material-icons">shuffle</span>
+</button>
+<button id="autoplay-btn" aria-label="Autoplay">
+  <span class="material-icons">autoplay</span>
+</button>
+
+      </div>
+
+    </footer>
+  </div>
+
+ 
+  <script src="spotify.js"></script>
+</body>
+</html>
